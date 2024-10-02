@@ -1,0 +1,81 @@
+.Ourservices1 {
+    height: 30vh;
+    padding-top: 130px;
+    
+}
+
+.Ourservices1 h2{
+    color: #000000;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+
+}
+.Ourservices2 p{
+    text-align: justify;
+}
+
+.Ourservices2 h2 {
+    padding: 10px 0px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.Ourservices2 .card-row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin: 0px 5px;
+}
+
+.Ourservices2 .card {
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #d7d7d7;
+    border-radius: 2px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+    background-color: #E8E2D5;
+}
+
+.Ourservices2 .card:hover {
+    box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.15);
+}
+
+.Ourservices2 .card>img {
+    border-radius: 2px;
+    max-width: 100%;
+    margin-bottom: 10px;
+    height: auto;
+}
+
+.Ourservices2 .card h3 {
+    color: #000000;
+    font-weight: 500;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+.Ourservices2 .card p {
+    color: #333;
+    line-height: 1.5;
+    padding-top: 10px;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: justify;
+}
+@media screen and (max-width: 600px) {
+    .Ourservices1 {
+        height: 30vh;
+        padding-top: 100px;
+        
+    }
+    .Ourservices1 h2{
+        color: #000000;
+        font-weight: 550;
+        font-size: 18px;
+        text-align: center;
+    }
+
+}
